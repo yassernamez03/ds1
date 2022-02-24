@@ -70,8 +70,12 @@ a{
     color: white;
     border: 0px;
     margin-top: 10px;
+    transition: 1s all ;
+    
 }
 .chat:hover {
     background-color: peru;
     color: black;
+    position: relative;
+    top: 20px;
 }
