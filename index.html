@@ -12,37 +12,34 @@
     margin: 5px;
 }
 ul{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    display: grid; 
-    justify-content: flex-start;
+    display: inline-block;
 }
     </style>
 </head> 
 <body>
-    <div>
-        <h1>D1 IDSD1</h1>
-        <div >
+    <div class="main">
+        <h1 class="title">D1 IDSD1</h1>
+        <div class="a">
                 <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/csspage.html">CSS</a></li>
-                    <li><a href="/contact.html">contact</a></li>
+                    <li class="b"><a href="/index.html">Home</a></li>
+                    <li class="b"><a href="/csspage.html">CSS</a></li>
+                    <li class="b"><a href="/contact.html">contact</a></li>
                 </ul>
         </div>
     </div>
-   
-    <div>
-            <div>
+    <div class="all" style="border: 0px;">
+            <div class="top">
                 <h2>Home page</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur enim maxime exercitationem dolorum perferendis doloremque esse quasi sequi eos. Impedit tempora odit aut architecto dolore in libero dignissimos at!</p>
-            <div>
+            <div class="img">
                 <img src="/imgs/img1.jpg" alt="img">
-                <footer><p>Fig.1.Image telecharger de getiondeprojetsencommunication.com.</p></footer>
+                <footer class="botimg"><p>Fig.1.Image telecharger de </p>
+                    <a class="lu" href="getiondeprojetsencommunication.com">getiondeprojetsencommunication.com</a>
+                </footer>
             </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere rem nam culpa vel esse mollitia quod. Dolorem eos corrupti velit voluptas, pariatur, quis, dicta itaque veniam quos alias vero voluptates.</p>
             </div>
-            <div>
+            <div class="sec">
                 <h3>Books to read</h3>
                 <ol type="1">
                     <li>start with react</li>
@@ -53,8 +50,12 @@ ul{
                 </ol>
             </div>
     </div>
-    <div>
-        <p>Created by idsd1 team</p>
+    <div class="chat">
+        <p>chat box</p>
     </div>
+    <flooter class="bot">
+        <p>127.0.0.1:5500/index.html</p>
+        <p class="bottext">Created by idsd1 team</p>
+    </flooter>
 </body>
 </html>
